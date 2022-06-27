@@ -18,7 +18,7 @@ public class loginstepdef {
 	@Before
 	public void setup() throws Exception
 	{
-		 System.setProperty("webdriver.chrome.driver", "chromedriverlatest.exe");
+		 System.setProperty("webdriver.chrome.driver", "chromedriverNewVersion.exe");
 		 driver= new ChromeDriver();
 		 Thread.sleep(3000);
 	}
